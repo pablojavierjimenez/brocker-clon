@@ -1,6 +1,6 @@
 ## Create Next.js Project
 
-*Nota:* este proyecto esta con
+*Nota:* este proyecto esta creado con
 - [Ubuntu 24.04 LTS x86_64]()
 - [Node JS v20.13.01]()
 - [NPM v10.8.0]()
@@ -19,3 +19,14 @@
 
 ```
 -----------
+
+## Git config
+1. Instalar git
+2. crear ssh key
+   `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+3. configurar git globals
+    ```
+    $ git config --global user.name "John Doe"
+    $ git config --global user.email johndoe@example.com
+    ```
+4. 

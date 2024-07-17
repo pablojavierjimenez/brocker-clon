@@ -1,0 +1,38 @@
+.asideStyle {
+  background-color: white;
+  display: flex;
+  font-family: Arial;
+  flex-direction: column;
+  height: 100vh;
+  padding: 5px;
+  width: 60px;
+  align-items: center;
+}
+
+.sidebar-button {
+  width: var(--size-50);
+  height: var(--size-50);
+  color: var(--color-primary);
+  border-radius: 50%;
+  margin: 5px;
+  padding: 4px 0 4px;
+};
+
+.sidebar-button > span {
+  color: #012121;
+  font-weight: var(--font-weight-default);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body-small);
+
+  margin: 2px 0 10px;
+  background-color: transparent;
+}
+
+.sidebar-button:hover {
+  background-color: var(--color-background);
+}
+
+.square-button {
+  border-radius: 3px !important;
+  padding: 2px 3px;
+}

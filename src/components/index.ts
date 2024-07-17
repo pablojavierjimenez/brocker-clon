@@ -1,0 +1,1 @@
+import SidebarMenu from './sidebar-menu'
